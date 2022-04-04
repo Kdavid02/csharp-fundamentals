@@ -1,8 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System;
 
 namespace MyFirstApplication
 {
-    class Program
+    public class Program
     {
         static void MyLocalFunction()
         {
@@ -11,9 +11,12 @@ namespace MyFirstApplication
             Console.WriteLine("This CSharp course is cool");
             Console.WriteLine("I am learning stuff ever");
         }
-        static void Main(string[] args)
+        static void Main()
         {
             MyLocalFunction();
+            Exercise1.Systypeprint();
+            Exercise1.Convertbyte(5, 2, 4);
+            Exercise1.Digseperate();
         }
 
 
