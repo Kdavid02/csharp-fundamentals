@@ -11,6 +11,7 @@ namespace MyFirstApplication
             Console.WriteLine("This CSharp course is cool");
             Console.WriteLine("I am learning stuff ever");
         }
+
         static void Main()
         {
             MyLocalFunction();

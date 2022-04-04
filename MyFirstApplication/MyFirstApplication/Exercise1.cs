@@ -36,6 +36,9 @@ public class Exercise1
 
 
     }
+    /*
+     * Problem 3 - Assign values to apporiate data type and then print each value.
+     */ 
     public static void Digseperate() {
         double doubnum_1 = 123_456.987;
         int intnum_1 = -9_516_248;
