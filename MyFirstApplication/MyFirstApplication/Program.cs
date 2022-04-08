@@ -4,7 +4,7 @@ namespace MyFirstApplication
 {
     public class Program
     {
-        static void MyLocalFunction()
+        public static void MyLocalFunction()
         {
             Console.WriteLine("This is my first sentence");
             Console.WriteLine("I am new to CSharp");
@@ -12,12 +12,20 @@ namespace MyFirstApplication
             Console.WriteLine("I am learning stuff ever");
         }
 
-        static void Main()
+        public static void Main()
         {
-            MyLocalFunction();
-            Exercise1.Systypeprint();
-            Exercise1.Convertbyte(5, 2, 4);
-            Exercise1.Digseperate();
+            // MyLocalFunction();
+            // Exercise1.Systypeprint();
+            // Exercise1.Convertbyte(5, 2, 4);
+            // Exercise1.Digseperate();
+
+            Exercise2.Stringconcat("EXERCISE two Lab");
+            Exercise2.Unicrow();
+            Exercise2.JackandJill();
+            Exercise2.Favmovie();
+
+
+
         }
 
 

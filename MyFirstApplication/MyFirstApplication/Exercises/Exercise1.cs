@@ -2,7 +2,8 @@
 
 namespace MyFirstApplication;
 /*
- * Class for exercise 1 problems.
+ * Exercise 1 - dealing with data types
+ * 
  */
 public class Exercise1
 {
@@ -13,7 +14,7 @@ public class Exercise1
     Problem  1 - Asign the value 35 to a varible in several data types,
     using decimal, binary, and hexadecimal and then print them.
      */
-    public static void Systypeprint()
+    public void Systypeprint()
     {
         decimal decinum = 35;
         int binarynum = 0b100011;
@@ -25,7 +26,7 @@ public class Exercise1
     /*
      * Problem 2 - Use 3 args doub flt long and covert From double to long. From float to int. From long to short. And print
      */
-    public static void Convertbyte(double doub, float flt, long lng) {
+    public void Convertbyte(double doub, float flt, long lng) {
         long converted = (long)doub;
         Console.WriteLine(converted);
         converted = (int)flt;
@@ -39,7 +40,7 @@ public class Exercise1
     /*
      * Problem 3 - Assign values to apporiate data type and then print each value.
      */ 
-    public static void Digseperate() {
+    public void Digseperate() {
         double doubnum_1 = 123_456.987;
         int intnum_1 = -9_516_248;
         int intnum_2 = 3_500;
