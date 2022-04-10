@@ -1,9 +1,9 @@
 ﻿namespace MyFirstApplication;
 
-/*
-Lesson 3 Lab Exercise - Use different operators (like Compound Assignment operator, Boolean Logical operators etc.)
-to calculate different values
- */
+    /*
+    Lesson 3 Lab Exercise - Use different operators (like Compound Assignment operator, Boolean Logical operators etc.)
+    to calculate different values
+    */
 public class Exercise3
 {
 
@@ -45,10 +45,10 @@ public class Exercise3
     }
 
     /*
-Problem 3 - Write a method that takes two short type arguments and a void return
-type. Using the Compound Assignment operators these, +=, /=, *=, %= use the first
-argument parameter as the left operand to get the result. Print each one
-using the Console WriteLine statement.
+    Problem 3 - Write a method that takes two short type arguments and a void return
+    type. Using the Compound Assignment operators these, +=, /=, *=, %= use the first
+    argument parameter as the left operand to get the result. Print each one
+    using the Console WriteLine statement.
     */
     public static void Shrtmethod(short shrtypearg_1, short shrtypearg_2) 
     {
