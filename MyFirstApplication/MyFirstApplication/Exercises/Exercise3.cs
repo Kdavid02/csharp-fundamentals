@@ -8,7 +8,7 @@ public class Exercise3
 {
 
     /* 
-    Problem 3  - Write a method that takes 1 int argument and an int return type. Use
+    Problem 1  - Write a method that takes 1 int argument and an int return type. Use
     the modulus operator. Use the Console WriteLine statement on the first 4
     variables listed and calculate the modulus with the passed in
     argument parameter. Using 15, 456, 23, 89, 245 as the varibled. Using the last variable, calculate the modulus
@@ -62,7 +62,7 @@ public class Exercise3
     }
 
     /*   
-    Write a method that takes two bool type arguments and a void return
+    Problem 4 - Write a method that takes two bool type arguments and a void return
     type. Using Boolean Logical operators &, |, ^, and ||.
     Use a Console WriteLine statement to calculate each result using the
     operators. The second argument is the left operand. Use these value to test the method:
