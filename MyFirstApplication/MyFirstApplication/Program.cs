@@ -27,7 +27,7 @@ namespace MyFirstApplication
             Exercise3.Valuemodulus(392);
             Exercise3.Mathoutput();
             Exercise3.Shrtmethod(3, 5);
-            Exercise3.Boolmethod(true, false);
+            Exercise3.Boolmethod(false, true);
 
 
 
