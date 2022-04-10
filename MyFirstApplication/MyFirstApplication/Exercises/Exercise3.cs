@@ -69,14 +69,24 @@ public class Exercise3
     Argument1 = true, Argument2 = false
     Argument1 = false, Argument2 = false Argument1 = true, Argument2 = true Argument1 = false, Argument2 = true values . Using comments, provide your output results
     */
-    public static void Boolmethod(bool arg1, bool arg2)
+    public static void Boolmethod(bool boolarg_1, bool boolarg_2)
     {
-        Console.WriteLine(arg2 & arg1);
-        Console.WriteLine(arg2 | arg1);
+        Console.WriteLine(boolarg_2 & boolarg_1);
+        Console.WriteLine(boolarg_2 | boolarg_1);
 
-        Console.WriteLine(arg2 ^ arg1);
-        Console.WriteLine(arg2 || arg1);
+        Console.WriteLine(boolarg_2 ^ boolarg_1);
+        Console.WriteLine(boolarg_2 || boolarg_1);
+
+        /*
+        * When boolarg_1 = true and boolarg_2 = false, ouput: False, True, True, True.
+        * When boolarg_1 = false and boolarg_2 = false, output: False, False, False, False,
+        * When boolarg_1 = true and boolarg_2 = true, output: True, True, False, True
+        * When boolarg_1 = false and boolarg_2 = true, output: False, True, True, True
+        */
+
+
     }
+
 
 } // end class
 
