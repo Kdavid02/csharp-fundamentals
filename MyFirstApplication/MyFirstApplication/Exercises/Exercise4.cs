@@ -1,7 +1,7 @@
 ﻿namespace MyFirstApplication;
 
 /*
-Lesson 4 Lab Exercise - Use different Control Flow Statments like if-else statments, switch, etc to activate different statments 
+Lesson 4 Lab Exercise - Use different Control Flow statements like if-else statments, switch, etc to activate different statments 
 */
 public class Exercise4
 {
@@ -28,7 +28,7 @@ public class Exercise4
     /* 
    Problem 2  - Write a method that takes 1 char argument and a string return type. 
    Use a switch that determines the right grade.
-   E Excellent, V Very Good, G Good, A  Average, F Fail.
+   [E Excellent, V Very Good, G Good, A  Average, F Fail.]
      */
 
     public static string Gradecheck(char gradearg) 
