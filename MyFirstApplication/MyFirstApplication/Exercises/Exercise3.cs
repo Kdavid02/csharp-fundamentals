@@ -1,9 +1,9 @@
 ﻿namespace MyFirstApplication;
 
-    /*
-    Lesson 3 Lab Exercise - Use different operators (like Compound Assignment operator, Boolean Logical operators etc.)
-    to calculate different values
-    */
+/*
+Lesson 3 Lab Exercise - Use different operators (like Compound Assignment operator, Boolean Logical operators etc.)
+to calculate different values
+*/
 public class Exercise3
 {
 

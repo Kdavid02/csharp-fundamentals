@@ -24,10 +24,17 @@ namespace MyFirstApplication
             // Exercise2.JackandJill();
             // Exercise2.Favmovie();
 
-            Exercise3.Valuemodulus(392);
-            Exercise3.Mathoutput();
-            Exercise3.Shrtmethod(3, 5);
-            Exercise3.Boolmethod(false, true);
+            // Exercise3.Valuemodulus(392);
+            // Exercise3.Mathoutput();
+            // Exercise3.Shrtmethod(3, 5);
+            // Exercise3.Boolmethod(false, true);
+
+            Exercise4.StringCompare("cat", "dog");
+            Exercise4.StringCompare("cat", "cat");
+            Console.WriteLine(Exercise4.Gradecheck('E'));
+            Exercise4.Dividethree();
+
+
 
 
 
