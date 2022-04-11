@@ -56,7 +56,10 @@ public class Exercise4
         }
 
     }
-
+    /*
+     * Problem 3 - Write a method with no arugments and a void return type. Show all numbers divisable by 3 (0-30) 
+     * use Console.WriteLine to show them.
+     */ 
     public static void Dividethree()
     {
         for (int i = 0; i < 31; i++)
