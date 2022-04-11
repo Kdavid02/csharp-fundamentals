@@ -8,7 +8,7 @@ public class Exercise4
 
     /* 
     Problem 1  - Write a method that takes 2 string arguments and an boid return type. Use and if-else statment to 
-    compare the 2 strings to one another. Use a console.writeline statment to see if they are equal.
+    compare the 2 strings to one another. Use a console.writeline statement to show if they are equal.
      */
     public static void StringCompare(string stringarg_1, string stringarg_2)
     {
