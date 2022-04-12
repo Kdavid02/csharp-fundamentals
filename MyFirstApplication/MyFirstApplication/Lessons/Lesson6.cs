@@ -5,7 +5,7 @@
  */
 internal class Lesson6
 {
-    // Delegates
+    //      Delegates
     public delegate void TryOn(string type);
     public delegate void TryOnAnotherHat(string type);
     
