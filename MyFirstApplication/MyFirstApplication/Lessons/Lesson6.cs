@@ -1,7 +1,7 @@
 ﻿namespace MyFirstApplication;
 
 /*
- Constructors, Methods, & More
+ Lesson 6 -  Constructors, Methods, & More
  */
 internal class Lesson6
 {

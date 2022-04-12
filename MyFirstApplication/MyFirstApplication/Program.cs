@@ -34,9 +34,19 @@ namespace MyFirstApplication
             // Console.WriteLine(Exercise4.Gradecheck('E'));
             // Exercise4.Dividethree();
 
-            Console.WriteLine(Exercise5.Ohmlaw(39, 38));
-            Console.WriteLine(Exercise5.Gradecheck_2('E'));
-            Exercise5.Moviesnack(3);
+            // Console.WriteLine(Exercise5.Ohmlaw(39, 38));
+            // Console.WriteLine(Exercise5.Gradecheck_2('E'));
+            // Exercise5.Moviesnack(3);
+
+            void Exercise6test()
+            {
+                Exercise6 Shoe_1 = new Exercise6(2, "Nike");
+
+                Exercise6.TryOn tryshoes = Shoe_1.ShoeTryOn;
+
+                tryshoes($"Try on {Shoe_1.ShoeType}'s with a size of {Shoe_1.ShowSize}");
+            }
+            Exercise6test();
 
 
 
