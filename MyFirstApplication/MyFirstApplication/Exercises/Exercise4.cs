@@ -1,7 +1,7 @@
 ﻿namespace MyFirstApplication;
 
 /*
-Lesson 4 Lab Exercise - Use different Control Flow statements like if-else statments, switch, etc to activate different statments 
+Lesson 4 Lab Exercise - Use different Control Flow statements like if-else statements, switch, etc to activate different statments 
 */
 public class Exercise4
 {
