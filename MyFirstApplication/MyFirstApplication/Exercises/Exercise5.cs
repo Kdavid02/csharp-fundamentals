@@ -1,19 +1,19 @@
 ﻿using System;
 namespace MyFirstApplication;
 
-/*
-Lesson 5 Lab Exercise -  Expressions and Pattern Matching 
-*/
+    /*
+    Lesson 5 Lab Exercise -  Expressions and Pattern Matching 
+    */
 
 
 public class Exercise5
 {
 
     /* 
-   Problem 1  - Write a method that take 2 int parameters and a int return type.
+    Problem 1  - Write a method that take 2 int parameters and a int return type.
     Use Ohm's law (V = C * R) to determine a voltage. The first 2 parameters will be current and resistance.
     use Func<int, int, int> then a lamda expression to determine the voltage and return the value.
-     */
+    */
     public static int Ohmlaw(int current, int resistance)
     {
         Func <int, int, int>  voltage = (current, resistance) => current * resistance;
@@ -21,10 +21,10 @@ public class Exercise5
         return voltageresult;
     }
     /* 
-Problem 2  - Write a method that takes 1 char argument and a string return type. 
-Use a switch and lambda that determines the right grade.
-[E Excellent, V Very Good, G Good, A  Average, F Fail.]
- */
+    Problem 2  - Write a method that takes 1 char argument and a string return type. 
+    Use a switch and lambda that determines the right grade.
+    [E Excellent, V Very Good, G Good, A  Average, F Fail.]
+    */
     public static string Gradecheck_2(char gradearg)
     {
         string gradereturn = gradearg switch
@@ -49,7 +49,7 @@ Use a switch and lambda that determines the right grade.
     Less or equal 32 Movie cup
     Less or equal 64 Movie tub
     Default should be We don’t have that size
-     */
+    */
     public static void Moviesnack(int mvearg)
     {
         string mvevalue = mvearg switch
