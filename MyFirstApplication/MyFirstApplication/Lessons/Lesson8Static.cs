@@ -1,7 +1,10 @@
 ﻿namespace MyFirstApplication;
 
+
+
 /*
- Static class must have static methods as you can not use instance methods.
+ Static class must have static methods 
+as you can not use instance methods.
  */
 internal static class Lesson8Static
 {
