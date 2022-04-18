@@ -13,14 +13,7 @@ namespace MyFirstApplication
             Console.WriteLine("I am learning stuff ever");
         }
 
-        public void Lesson9Example()
-        {
-            Lesson9 myLesson9 = new Lesson9();
-            Lesson9.Nested nested = new Lesson9.Nested(myLesson9);
-            // Access Modifiers
-            myLesson9.SampleInternal();
-            myLesson9.SampleProtectedInternal();
-        }
+
 
         public static void Main()
         {
@@ -67,7 +60,7 @@ namespace MyFirstApplication
             void Exercise8testLength()
             {
             }
-            Exercise8testLength();
+            // Exercise8testLength();
 
 
 
@@ -76,12 +69,64 @@ namespace MyFirstApplication
             {
                 Lesson9 myLesson9 = new Lesson9();
                 Lesson9.Nested nested = new Lesson9.Nested(myLesson9);
+
                 // Access Modifiers
                 myLesson9.SampleInternal();
                 myLesson9.SampleProtectedInternal();
             }
-            Lesson9Example();
+           // Lesson9Example();
 
+
+            static void Lesson10Example()
+            {
+                Lesson10 myLesson10 = new Lesson10();
+
+                // Using "this" to call another constructor
+                Console.WriteLine(myLesson10.Firstname);
+                // Normal property
+                myLesson10.Firstname = "Paul";
+                Console.WriteLine(myLesson10.Firstname);
+
+                // Calling Auto Property
+                //  myLesson10.LastName = "Smith"; // only works in Lesson10 constructor
+                Console.WriteLine(myLesson10.Id); // default value
+                myLesson10.Id = 1500;
+                Console.WriteLine(myLesson10.Id); // get 1500
+
+
+                // Expression Body Property
+                myLesson10.Address = "123 Main St.";
+                Console.WriteLine(myLesson10.Address);
+
+
+                // Second constructor
+                Lesson10 myOther10 = new Lesson10("Ben", "Franklin", 64119);
+                Console.WriteLine(myOther10.Zipcode);
+            }   
+
+
+           // Lesson10Example();
+
+            static void HouseUpdated()
+            {
+                // Calling Default
+                House myHouse = new House();
+                Console.WriteLine(myHouse.RoofType);
+                myHouse.DoorOpenClose();
+
+                // Calling Constructor with 2 parameters
+                House mySecond = new House("straw", "bamboo");
+                Console.WriteLine(mySecond.WindowSize);
+                mySecond.DoorOpenClose();
+
+
+                // Calling Constructor with 4 parameters
+                House myThird = new House("dirt", "plastic", "green", 40);
+                Console.WriteLine(myThird.Foundation);
+                myThird.DoorOpenClose();
+                
+            }
+            HouseUpdated();
         }
         
 
