@@ -13,7 +13,16 @@ namespace MyFirstApplication
             Console.WriteLine("I am learning stuff ever");
         }
 
-          public static void Main()
+        public void Lesson9Example()
+        {
+            Lesson9 myLesson9 = new Lesson9();
+            Lesson9.Nested nested = new Lesson9.Nested(myLesson9);
+            // Access Modifiers
+            myLesson9.SampleInternal();
+            myLesson9.SampleProtectedInternal();
+        }
+
+        public static void Main()
         {
 
             // MyLocalFunction();
@@ -57,15 +66,21 @@ namespace MyFirstApplication
 
             void Exercise8testLength()
             {
-                Exercise8.LengthWidth(3, 5);
             }
             Exercise8testLength();
 
 
 
 
-
-
+            static void Lesson9Example()
+            {
+                Lesson9 myLesson9 = new Lesson9();
+                Lesson9.Nested nested = new Lesson9.Nested(myLesson9);
+                // Access Modifiers
+                myLesson9.SampleInternal();
+                myLesson9.SampleProtectedInternal();
+            }
+            Lesson9Example();
 
         }
         
