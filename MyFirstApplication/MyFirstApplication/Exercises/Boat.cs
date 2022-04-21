@@ -54,4 +54,24 @@ internal class Boat_Object // boat was used already in the namespace
         : this("Orange", 20) { }
 
 
+    /*
+    Exercise Lab 12
+    Problem 3 - In your Boat class, add the virtual keyword to your method created in 
+    Lesson 10. Create a second version of the same method and add a 
+    parameter. 
+    Include a Console WriteLine method in the new method that 
+    uses the parameter. 
+    This parameter needs to be based on one of your 
+    properties.
+     */
+    public virtual void RudderClockwise()
+    {
+        Console.WriteLine("The properller spins clockwise.");
+    }
+
+    public void RudderClockwise(string paintcolor)
+    {
+        Console.WriteLine($"The {paintcolor} boat rudder is spinning! ");
+    }
+
 } // end class

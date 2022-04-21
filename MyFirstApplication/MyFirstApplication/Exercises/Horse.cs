@@ -40,5 +40,22 @@ internal class Horse
     {
         Console.WriteLine("The horse kicks their hind legs back.");
     }
+    /*
+    Exercise Lab 12 
+    Problem 1
+    In your Horse class, add the "virtual" keyword to your method created in 
+    Lesson 10. Create a second version of the same method and add a 
+    parameter. 
+    Include a Console WriteLine method in the new method that 
+    uses the parameter. This parameter needs to be based on one of your 
+    properties.
+     */
+    public void KicksBackward(string haircolor) 
+    {
+
+        Console.WriteLine($"The {haircolor} horse kicks it's hind legs swiftly.");
+    
+    }
+
 
 } // end class

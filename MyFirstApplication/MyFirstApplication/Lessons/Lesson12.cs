@@ -3,6 +3,9 @@
 // Base class with a method declared virtual for overriding
 public class Fruit
 {
+
+
+
     public virtual void EatFruit()
     {
         Console.WriteLine("I eat fruit.");
@@ -17,6 +20,7 @@ public class Fruit
 
 
 
+//
 // Derived class overriding the base class method
 public class Apple : Fruit
 {
