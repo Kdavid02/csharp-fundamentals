@@ -103,6 +103,19 @@ namespace MyFirstApplication
                 Lesson10 myOther10 = new Lesson10("Ben", "Franklin", 64119);
                 Console.WriteLine(myOther10.Zipcode);
             }   
+            static void Lesson11Example() {
+                Square square = new Square();
+                double total = square.CalculateInteriorAngle();
+                Console.WriteLine(total);
+            
+                Triangle triangle = new Triangle();
+                double total2 = triangle.CalculateInteriorAngle();
+            
+            
+            
+            
+            }
+            Lesson11Example();
 
 
            // Lesson10Example();
@@ -126,7 +139,9 @@ namespace MyFirstApplication
                 myThird.DoorOpenClose();
                 
             }
-            HouseUpdated();
+
+            
+           // HouseUpdated();
         }
         
 
