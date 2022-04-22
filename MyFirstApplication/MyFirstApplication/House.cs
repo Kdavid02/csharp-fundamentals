@@ -1,6 +1,6 @@
 ﻿using System;
 namespace MyFirstApplication;
-// This is my house object. 
+// This is my house object. Part of Exercise 12-13
 public class House
 {
     public string Foundation { get; init; }

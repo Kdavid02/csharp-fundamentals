@@ -1,6 +1,5 @@
 ﻿namespace MyFirstApplication;
 
-/* This class contains part of the Exercise 10 Lab */
 internal class Boat_Object // boat was used already in the namespace
 {
     /*
