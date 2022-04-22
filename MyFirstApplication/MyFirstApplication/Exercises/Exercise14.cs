@@ -1,7 +1,7 @@
 ﻿namespace MyFirstApplication;
 
     /*
-   Lesson 14 Lab Exercise - Arrays
+    Lesson 14 Lab Exercise - Arrays
     */
 
 internal class Exercise14
