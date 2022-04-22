@@ -144,7 +144,14 @@ namespace MyFirstApplication
             
            // HouseUpdated();
         }
+        static void Exercise16Example()
+        {
+            Exercise16.HorseList();
 
+
+        }
+
+        
 
 
         // Lesson 13
@@ -162,7 +169,19 @@ namespace MyFirstApplication
             Console.WriteLine($"Converting miles to yards {total3}");
         }
 
+        // Lesson 16
+        /*
+        void Lesson16Example()
+        {
+            Lesson16 lesson16 = new Lesson16();
+            //myLesson16.MyListExample();
+            myLesson16.MyDictionaryExample();
+        }
 
+        
+        */
+        // exercise 17 test
+        // Exercise17.DivideByZero();
     }
 
 }
