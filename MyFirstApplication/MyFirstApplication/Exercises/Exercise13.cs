@@ -2,12 +2,12 @@
 namespace MyFirstApplication;
 
 /*
- This class covers the content for Exercise13
- */
+ Lab Exercise 13 - Abstract Class and Properties
+*/
 
 /*
 Problem 1 - In your Exercise13.cs file, change your class to an Interface and name it 
-IMovement. E
+IMovement. 
 This interface will have 1 property. The property will an int 
 and called Speed. It will have a get and init.
  */
