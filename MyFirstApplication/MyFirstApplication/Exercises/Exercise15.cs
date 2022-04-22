@@ -1,75 +1,57 @@
-﻿using System;
-namespace MyFirstApplication;
+﻿namespace MyFirstApplication;
 
 /*
-Enums can be created either
-within a class or structor in the namespace
+Lesson 15 Lab Exercise - Enums and Tuples 
  */
 
-public enum Day { Sat, Sun, Mon, Tue, Wed, Thu, Fri };
-public enum IceCreamFlavors { Vanilla, Chocolate, Strawberry, RockyRoad };
+/*
+Problem 1 - Above the class, write an enum called Favorite Movies. Add your own
+favorite movies to the enum. Write a method that has a string return type
+and an enum parameter. This enum parameter will be your favorite movie
+enum. Write a switch expression that takes the enum and prints out a
+string return. Use string interpolation in your return message that includes
+the name of the movie chosen.
+ */
 
-// Lesson 15 - Enums and Tuples
-internal class Lesson15
+public enum FavoriteMovies 
+  { 
+    Akira, 
+    Her, 
+    Evangelion 
+  }
+internal class Exercise15
 {
-    public void EnumExample()
+    public string Mves(FavoriteMovies mveNme)
     {
-        Console.WriteLine(Day.Mon); // displays value
-        Console.WriteLine((double)Day.Tue); // displays number value
-    }
-
-    // enum using switch expression to narrow down the choices
-    public string FavoriteIceCream(IceCreamFlavors flavors)
-    {
-        string message = flavors switch
+        string movie = mveNme switch
         {
-            IceCreamFlavors.Vanilla => $"My favorite is {IceCreamFlavors.Vanilla}",
+
+            FavoriteMovies.Akira => $"Favorite movie is {FavoriteMovies.Akira}",
             
-            IceCreamFlavors.Chocolate => $"My favorite is {IceCreamFlavors.Chocolate}",
-            
-            IceCreamFlavors.Strawberry => $"My favorite is {IceCreamFlavors.Strawberry}",
-            _ => $"My favorite is {IceCreamFlavors.RockyRoad}"
+            FavoriteMovies.Her => $"Favorite movie is {FavoriteMovies.Her}",
+
+            _ => $"Favorite movie is {FavoriteMovies.Evangelion}"
         };
-        return message;
-    }
+        return movie;
+     }
 
     /*
-     Tuples are a group of types using parenthesis and separating with a comma.
+    Problem 2 - Write a method that takes an enum parameter. This enum will be your
+    favorite movie enum. The method will have a tuple return type (int num,
+    string movie). 
+    Using an explicit int cast on one of your enum, assign the
+    value to an int variable. 
+    Create second variable of type string. Assign the
+    same enum value you used and use the ToString() at the end of it. Return
+    both variables as a tuple. See example below for clarity.
+    a. Int value = (int)Enum.Value;
+    b. string something = Enum.Value.ToString();
      */
-    public void TupleExample()
+    public (int num, string movie) BestMves(FavoriteMovies movie)
     {
-        (double, int) able = (2.3, 5);
-        Console.WriteLine($"Tuple with elements {able.Item1} and {able.Item2}");
-
-        (double value, double value2) beta = (3.3, 5.4);
-        Console.WriteLine($"The second value is {beta.value2} is after {beta.value}");
+        int value = (int)movie;
+        string name = movie.ToString();
+        return (value, name);
     }
 
-    /*
-     Using a tuple to return multiple results in a method
-     */
-    public (int able, int beta, int delta) TupleReturnExample(int value1, int value2)
-    {
-        int alpha, bravo, charlie;
-        if (value1 >= 10 || value2 <= 50)
-        {
-            alpha = ++value1;
-           
-            bravo = ++value2;
-            
-            charlie = alpha + bravo;
-        }
-        else
-        {
-            alpha = 1;
-            
-            bravo = 2;
-            
-            charlie = 3;
-        }
-
-        return (alpha, bravo, charlie);
-    }
-
-
-} // end class
+}
