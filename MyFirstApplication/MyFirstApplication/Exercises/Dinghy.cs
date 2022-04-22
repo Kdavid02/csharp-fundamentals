@@ -10,7 +10,8 @@ internal class Dinghy_Boat : Boat_Object
     /*
     Problem 2 - Create a child class based on your Boat object. 
     You will follow the same 
-    instructions as Exercise 1 except for the following - Include 1 child attribute
+    instructions as Exercise 1 except for the following - 
+    Include 1 child attribute
     as Expression Body Definition Properties
      */
 
@@ -37,6 +38,7 @@ internal class Dinghy_Boat : Boat_Object
 
     public void Pressurize()
     {
+
         Console.WriteLine("The dinghy boat is increasing in pressure.");
     }
 
@@ -50,6 +52,7 @@ internal class Dinghy_Boat : Boat_Object
 
     public override void RudderClockwise()
     {
+
         Console.WriteLine("The dinghy boat\'s Rudder turns clockwise.");
     }
 
